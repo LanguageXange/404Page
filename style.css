@@ -1,0 +1,52 @@
+@keyframes astro {
+  0% {
+    transform: rotate(30deg);
+  }
+  50% {
+    transform: rotate(180deg) scale(0.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+img {
+  width: 500px;
+  display: block;
+  margin: 50px auto;
+  animation-duration: 8s;
+  animation-name: astro;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+body {
+  background-color: #313131;
+  color: antiquewhite;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 5rem;
+}
+#back {
+  font-size: 2rem;
+  text-decoration: none;
+  background-color: tomato;
+  border: 3px solid black;
+  color: white;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+#back:hover {
+  background-color: rgb(120, 150, 230);
+  color: black;
+}
+
+footer,
+footer > a {
+  font-size: 1.2rem;
+  margin-top: 5rem;
+  color: white;
+}
