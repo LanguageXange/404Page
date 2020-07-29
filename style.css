@@ -1,6 +1,6 @@
 @keyframes astro {
   0% {
-    transform: rotate(30deg);
+    transform: rotate(5deg);
   }
   50% {
     transform: rotate(180deg) scale(0.1);
